@@ -10,22 +10,42 @@
     <script src="https://kit.fontawesome.com/44dfa94bcf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <h1 class="sull">Luke Sullivan</h1>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">Contact</a>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="sull">Luke Sullivan</h1>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About Me</a>
+                    <a href="#">Contact</a>
+                </div>
+        
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-    
-            <button class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+        </nav>
+    </header>
+    <nav class="mobile_nav">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
     </nav>
+    <div id="hero">
+        <div class="dev">
+            <h1>developer</h1>
+            <span class="line"></span>
+            <h2><span class="bracket">[</span>noun<span class="bracket">]</span></h2>
+            <p>a person or a company that <span class="blue">designs</span></p>
+            <p>and <span class="blue">creates</span> new products</p>
+            <button class="cv-btn">CV/Resume</button>
+        </div>
+        <div class="pic-wrap">
+            <img src="assets/hero.jpg" alt="pic">
+        </div>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
