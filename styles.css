@@ -130,7 +130,7 @@ nav{
 }
 
 .menu a:hover{
-    transition: 0.4s;
+    transition: 0.5s;
     color: var(--primary);
 }
 
@@ -289,6 +289,12 @@ a {
 }
 
 @media (max-width: 768px) {
+    #hero .line {
+        width: 80vw;;
+    }
+    #hero h1 {
+        padding-top: 15vh;
+    }
     .pic-wrap {
         display: none;
     }
