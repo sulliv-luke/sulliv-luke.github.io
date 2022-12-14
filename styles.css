@@ -130,6 +130,7 @@ nav{
 }
 
 .menu a:hover{
+    transition: 0.4s;
     color: var(--primary);
 }
 
@@ -259,11 +260,6 @@ nav{
 
 .mobile_nav.is-active{
     left: 0;
-}
-
-.mobile_nav a:hover{
-    transition: 0.4s;
-    color: var(--primary);
 }
 
 a {
