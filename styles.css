@@ -129,8 +129,8 @@ nav{
     border-radius: 99px;
 }
 
-.menu a.is-active, .menu a:hover{
-    background-color: var(--primary);
+.menu a:hover{
+    color: var(--primary);
 }
 
 #hero {
@@ -229,8 +229,9 @@ nav{
     animation-fill-mode: forwards;
 }
 #hero .cv-btn:hover {
-    box-shadow: 0 5px 15px rgb(64, 167, 64);
-    background-color: rgba(255, 255, 255, 0.859);
+    transition: 0.5s;
+    background-color: var(--primary);
+    color: var(--light);
     cursor: pointer;
 }
 
@@ -265,6 +266,10 @@ nav{
     color: var(--primary);
 }
 
+a {
+    transform: scale(2, 2);
+}
+
 @keyframes slide-fade {
     100% {
         margin-left: 5vw;
@@ -290,8 +295,5 @@ nav{
 @media (max-width: 768px) {
     .pic-wrap {
         display: none;
-    }
-    #hero {
-        justify-content: center;
     }
 }
